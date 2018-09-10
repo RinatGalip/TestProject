@@ -46,6 +46,7 @@ public class ContactsPageTest extends TestBase {
 	
 	@DataProvider
 	public Object[][] getCRMTestData() {
+		
 		Object data[][] = TestUtil.getTestData(sheetName);
 		return data;
 	}
